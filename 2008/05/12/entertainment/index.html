@@ -113,9 +113,9 @@
 <ul>
     <li class="all active">全部文章</li>
     
-    <li data-rel="博客"> 博客 </li>
-    
     <li data-rel="娱乐"> 娱乐 </li>
+    
+    <li data-rel="博客"> 博客 </li>
     
 </ul>
 <div class="left-bottom">
@@ -128,7 +128,7 @@
     <div><a class="friends">友链</a></div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="3">
-<input type="hidden" id="yelog_site_word_count" value="274">
+<input type="hidden" id="yelog_site_word_count" value="287">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -163,14 +163,6 @@
     <div class="tags-list">
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">博客</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">排版</a>
-    </li>
-    
-    <li class="article-tag-list-item">
         <a href="javascript:" class="color3">电影</a>
     </li>
     
@@ -178,11 +170,24 @@
         <a href="javascript:" class="color3">游戏</a>
     </li>
     
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">博客</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">排版</a>
+    </li>
+    
     <div class="clearfix"></div>
 </div>
 
     
     <nav id="title-list-nav">
+        
+        <a class="娱乐 " href="/2008/05/12/entertainment/" data-tag="电影,游戏" data-author>
+            <span class="post-title" title="资源共享">资源共享</span>
+            <span class="post-date" title="2008-05-12 00:00:00">2008/05/12</span>
+        </a>
         
         <a class="博客 " href="/2019/05/13/Blog_Skill/" data-tag="博客,排版" data-author>
             <span class="post-title" title="排版">排版</span>
@@ -192,11 +197,6 @@
         <a class href="/2019/05/06/hello-world/" data-tag data-author>
             <span class="post-title" title="Hello World">Hello World</span>
             <span class="post-date" title="2019-05-06 09:05:53">2019/05/06</span>
-        </a>
-        
-        <a class="娱乐 " href="/2008/05/12/entertainment/" data-tag="电影,游戏" data-author>
-            <span class="post-title" title="资源共享">资源共享</span>
-            <span class="post-date" title="2008-05-12 00:00:00">2008/05/12</span>
         </a>
         
     </nav>
@@ -237,12 +237,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title="更新时间: 2019-05-15 21:17:38">2008-05-12 00:00</time>
+        创建时间:<time class="date" title="更新时间: 2019-05-15 21:20:18">2008-05-12 00:00</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:18</span>
+        <span>字数:31</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -277,8 +277,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="影视作品"><a href="#影视作品" class="headerlink" title="影视作品"></a>影视作品</h1><ol>
-<li>电影：<br><a href="&quot;https://pan.baidu.com/s/18Sze1icUrDRdEJppxUpBbA&quot;">百度云盘</a>: mztw</li>
-<li>游戏<br><a href="&quot;https://pan.baidu.com/s/1ED3h6FFLrl8xnB__q9sA3w&quot;">百度云盘</a>: s5mh</li>
+<li>电影：<br>网址：<a href="https://pan.baidu.com/s/18Sze1icUrDRdEJppxUpBbA" target="_blank" rel="noopener">https://pan.baidu.com/s/18Sze1icUrDRdEJppxUpBbA</a><br>密码: mztw</li>
+<li>游戏<br>网址：”<a href="https://pan.baidu.com/s/1ED3h6FFLrl8xnB__q9sA3w&quot;" target="_blank" rel="noopener">https://pan.baidu.com/s/1ED3h6FFLrl8xnB__q9sA3w&quot;</a>)<br>密码: s5mh</li>
 </ol>
 
       
@@ -290,10 +290,10 @@
 
 <div class="article_copyright">
     <p><span>文章标题:</span>资源共享</p>
-    <p><span>文章字数:</span><span class="post-count">18</span></p>
+    <p><span>文章字数:</span><span class="post-count">31</span></p>
     <p><span>本文作者:</span><a href="javascript:void(0)" title="FunkyGod">FunkyGod</a></p>
     <p><span>发布时间:</span>2008-05-12, 00:00:00</p>
-    <p><span>最后更新:</span>2019-05-15, 21:17:38</p>
+    <p><span>最后更新:</span>2019-05-15, 21:20:18</p>
     <span>原始链接:</span><a class="post-url" href="/2008/05/12/entertainment/" title="资源共享">http://yoursite.com/2008/05/12/entertainment/</a>
     <p>
         <span>版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target="_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
@@ -333,7 +333,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#博客','#排版','#电影','#游戏',],
+            'data': ['#电影','#游戏','#博客','#排版',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
